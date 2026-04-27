@@ -4,7 +4,7 @@
 ![SIEM](https://img.shields.io/badge/SIEM-Wazuh_4.x-blue)
 ![Framework](https://img.shields.io/badge/Framework-MITRE_ATT%26CK-red)
 ![Target](https://img.shields.io/badge/Target-Metasploitable3-orange)
-![Platform](https://img.shields.io/badge/Platform-VmWare-lightgrey)
+![Platform](https://img.shields.io/badge/Platform-VMware®Workstation17Pro-lightgrey)
 
 ---
 
@@ -33,11 +33,10 @@ A full **vulnerability assessment** was conducted against the Metasploitable3 ta
 
 | VM                  | Role                        | OS                  | IP Address       |
 |---------------------|-----------------------------|---------------------|------------------|
-| **Wazuh Manager**   | SIEM / Dashboard / Indexer  | Ubuntu 22.04 LTS    | `[YOUR_IP_HERE]` |
-| **Metasploitable3** | Vulnerable Target           | Ubuntu 14.04        | `[YOUR_IP_HERE]` |
-| **Kali Linux**      | Attacker / Scanner          | Kali Linux 2024.x   | `[YOUR_IP_HERE]` |
-| **Windows 10**      | Monitored Endpoint (Agent)  | Windows 10 Pro      | `[YOUR_IP_HERE]` |
-| **Ubuntu Server**   | Monitored Endpoint (Agent)  | Ubuntu 22.04 LTS    | `[YOUR_IP_HERE]` |
+| **Wazuh Manager**   | SIEM / Dashboard / Indexer  | Ubuntu 22.04 LTS    | `[192.168.106.130]` |
+| **Metasploitable3** | Vulnerable Target           | Ubuntu 14.04        | `[192.168.106.134]` |
+| **Kali Linux**      | Attacker / Scanner          | Kali Linux 2025.4   | `[192.168.106.128]` |
+
 
 > 📐 Network Type: Host-Only / NAT (isolated from internet)
 > 🔗 [Full Architecture Details](architecture/lab-topology.md) | [VM Inventory](architecture/vm-inventory.md)
@@ -112,7 +111,7 @@ wazuh-homelab-cybersecurity/
 4. Configure the network as described in [Network Configuration](setup/03-network-configuration.md)
 5. Run the Nmap scans from [Vulnerability Assessment](vulnerability-assessment/nmap-scan-results.md)
 
-> **Requirements:** VirtualBox 7.x, minimum 16GB RAM, 100GB disk space
+> **Requirements:** VMware® Workstation 17 Pro (version:17.5.2/build-23775571), minimum 16GB RAM, 100GB disk space
 
 ---
 
@@ -128,10 +127,10 @@ wazuh-homelab-cybersecurity/
 
 ## 👤 Author
 
-**[YOUR NAME]**
+**Christos Kaldanis**
 Cybersecurity Enthusiast | Blue Team | SOC Analyst (Aspiring)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/YOURPROFILE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](www.linkedin.com/in/christos-kaldanis-677107310)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/YOURUSERNAME)
 
 ---
