@@ -72,8 +72,7 @@ A full **vulnerability assessment** was conducted against the Metasploitable3 ta
 | **Wazuh**         | 4.x        | SIEM, log analysis, alerting, IDS        |
 | **Nmap**          | 7.x        | Network scanning, vulnerability scripts  |
 | **Metasploitable3** | Latest   | Intentionally vulnerable target VM       |
-| **Kali Linux**    | 2024.x     | Attack simulation and scanning platform  |
-| **VirtualBox**    | 7.x        | Virtualization platform                  |
+| **Kali Linux**    | 2025.4     | Attack simulation and scanning platform  |
 | **OpenSSH**       | —          | Remote management of VMs                 |
 
 ---
