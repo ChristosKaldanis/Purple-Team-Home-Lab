@@ -4,7 +4,7 @@
 ![SIEM](https://img.shields.io/badge/SIEM-Wazuh_4.x-blue)
 ![Framework](https://img.shields.io/badge/Framework-MITRE_ATT%26CK-red)
 ![Target](https://img.shields.io/badge/Target-Metasploitable3-orange)
-![Platform](https://img.shields.io/badge/Platform-VirtualBox-lightgrey)
+![Platform](https://img.shields.io/badge/Platform-VmWare-lightgrey)
 
 ---
 
