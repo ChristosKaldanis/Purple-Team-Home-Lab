@@ -23,9 +23,9 @@ an HTTP-based attack surface.
 
 | VM               | Role              | OS              | IP            |
 |------------------|-------------------|-----------------|---------------|
-| Wazuh Manager    | SIEM / Dashboard  | Ubuntu 22.04    | 192.168.106.130 |
+| Wazuh Manager    | SIEM / Dashboard  | Ubuntu 26.04 LTS| 192.168.106.130 |
 | Metasploitable3  | Vulnerable Target | Ubuntu 14.04    | 192.168.106.134 |
-| Kali Linux       | Attacker          | Kali 2024.x     | 192.168.106.128 |
+| Kali Linux       | Attacker          | Kali 2025.4     | 192.168.106.128 |
 
 
 > 🔗 [Full Architecture Details](architecture/lab-topology.md)
