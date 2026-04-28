@@ -12,7 +12,7 @@
 
 This project documents the design, deployment, and operation of a **cyber defense home lab** built around the **Wazuh open-source SIEM platform**. The lab simulates a realistic enterprise environment with multiple virtual machines — including an attacker node, a vulnerable target (Metasploitable3), and monitored endpoints.
 
-A full **vulnerability assessment** was conducted against the Metasploitable3 target using Nmap, resulting in the discovery of **two exploitable vulnerabilities**: a Denial-of-Service (DoS) vector and an HTTP-based attack surface. Both were successfully detected and alerted by the Wazuh SIEM.
+A full **vulnerability assessment** was conducted against the Metasploitable3 target using Nmap and Metasploit, resulting in the discovery of **five exploitable vulnerabilities**: a Denial-of-Service (DoS) vector and an HTTP-based attack surface. Both were successfully detected and alerted by the Wazuh SIEM.
 
 > ⚠️ **Disclaimer:** This lab is conducted in an **isolated, private network** for educational purposes only. No systems outside the lab environment were targeted.
 
