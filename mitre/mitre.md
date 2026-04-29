@@ -2,25 +2,6 @@
 
 > Complete mapping of all Purple Team lab attack scenarios to MITRE ATT&CK framework.
 
----
-
-## Attack Chain Visualization
-
-```
-[Initial Recon]          [Initial Access]        [Privilege Escalation]
-T1695 Active Scanning  ───▶T1190 ProFTPD RCE  ───▶  T1068 PwnKit
-                            T1190 Drupal RCE          
-                            T1190 SQLi                
-                            T1110 SSH Brute
-                            T1498 — Network Denial of Service     
-                                │
-                                ▼
-                        [Post Exploitation]
-                        T1136 New User (Persistence)
-                        T1005 Data Collection
-                        T1046 Network Discovery
-                        T1135 SMB Discovery
-```
 
 ---
 
