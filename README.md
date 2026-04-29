@@ -43,9 +43,9 @@ A full **vulnerability assessment** was conducted against the Metasploitable3 ta
 
 ---
 
-## 🔍 Vulnerabilities Discovered
+## 🔍 Exploits Executed
 
-| # | Vulnerability | Type | Severity | MITRE ATT&CK | CVE | Wazuh Detection |
+| # | Exploit | Type | Severity | MITRE ATT&CK | CVE | Wazuh Detection |
 |---|---------------|------|----------|--------------|-----|-----------------|
 | 1 | [DoS Attack Vector](vulnerability-assessment/vuln-01-dos-attack.md) | Denial of Service | 🔴 High | [T1499](https://attack.mitre.org/techniques/T1499/) | `[CVE-XXXX-XXXX]` | ✅ Detected |
 | 2 | [HTTP-Based Attack](vulnerability-assessment/vuln-02-http-attack.md) | Web Exploitation | 🟠 Medium-High | [T1190](https://attack.mitre.org/techniques/T1190/) | `[CVE-XXXX-XXXX]` | ✅ Detected |
