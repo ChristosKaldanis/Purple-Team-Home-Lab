@@ -1,4 +1,4 @@
-# 🔴🔵 Purple Team Home Lab
+#  Purple Team Home Lab
 ### Attack Simulation & Detection Engineering with Wazuh SIEM
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Overview
+##  Overview
 
 A fully functional Purple Team home lab built to simulate real-world cyber attacks, practice threat detection, and develop custom SIEM detection rules using **Wazuh**.
 
@@ -16,7 +16,7 @@ A fully functional Purple Team home lab built to simulate real-world cyber attac
 
 ---
 
-## 🏗️ Lab Architecture
+##  Lab Architecture
 
 ```
 ┌──────────────────────────────────────────────────────┐
@@ -37,7 +37,7 @@ A fully functional Purple Team home lab built to simulate real-world cyber attac
 
 ---
 
-## 🎯 Attack Scenarios — v1.0
+##  Attack Scenarios — v1.0
 
 | # | Exploit | CVE | Severity | CVSS | Result |
 |---|---------|-----|----------|------|--------|
@@ -50,7 +50,7 @@ A fully functional Purple Team home lab built to simulate real-world cyber attac
 
 ---
 
-## 🛡️ Detection Engineering
+##  Detection Engineering
 
 ### Before vs After Custom Rules
 
@@ -60,9 +60,8 @@ A fully functional Purple Team home lab built to simulate real-world cyber attac
 | SSH Brute Force | ✅ Detected | ✅ Detected | 5763 |
 | ProFTPD RCE | ❌ Missed | ✅ Detected | 100001 |
 | PwnKit Privesc | ❌ Missed | ✅ Detected | 100002/3 |
-| SQL Injection | ❌ Missed | ✅ Detected | 100004 |
-| Drupal RCE | ❌ Missed | ✅ Detected | 100005 |
-| New User Created | ✅ Detected | ✅ Detected | 5902 |
+| SQL Injection | ✅ Detected | ✅ Detected | 100004 |
+| Drupal RCE | ❌ Missed | ❌ Missed | 100005 |
 | Slowloris DDoS Attack | ✅ Detected | ✅ Detected | 100007 |
 
 ```
@@ -112,7 +111,7 @@ purple-team-home-lab/
 | Wazuh 4.7.5 | SIEM & Detection Engineering |
 | Kali Linux 2025.4 | Attack Platform |
 | Nmap 7.95 | Reconnaissance & CVE Scanning |
-| Metasploit 6.x | Exploitation Framework |
+| Metasploit 6.4.99-dev | Exploitation Framework |
 | Hydra | Brute Force Testing |
 | sqlmap | SQL Injection Automation |
 
