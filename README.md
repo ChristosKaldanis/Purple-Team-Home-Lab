@@ -46,6 +46,7 @@ A fully functional Purple Team home lab built to simulate real-world cyber attac
 | 03 | SQL Injection — Payroll App | N/A | 🟠 High | 8.8 | DB dumped |
 | 04 | Drupal RCE (Drupalgeddon2) | CVE-2018-7600 | 🟠 High | 9.8 | Shell obtained |
 | 05 | SSH Brute Force | N/A | 🟡 Medium | 7.5 | Credentials found |
+| 06 | Slowloris DDoS Attack | N/A | 🟡 Medium | 7.5 | Credentials found |
 
 ---
 
@@ -62,10 +63,10 @@ A fully functional Purple Team home lab built to simulate real-world cyber attac
 | SQL Injection | ❌ Missed | ✅ Detected | 100004 |
 | Drupal RCE | ❌ Missed | ✅ Detected | 100005 |
 | New User Created | ✅ Detected | ✅ Detected | 5902 |
-| SMB Enumeration | ❌ Missed | ✅ Detected | 100007 |
+| Slowloris DDoS Attack | ✅ Detected | ✅ Detected | 100007 |
 
 ```
-Detection Rate Before:  37% (3/8)
+Detection Rate Before:  50% (4/8)
 Detection Rate After:  100% (8/8)
 ```
 
@@ -84,6 +85,8 @@ purple-team-home-lab/
 │   ├── 03-sqli/             ← Payroll App SQLi
 │   ├── 04-drupal/           ← CVE-2018-7600
 │   └── 05-ssh-bruteforce/   ← Hydra attack
+|   |── 06-slowloris-dos-attack/ ← CVE-2018-7600
+│   
 │
 ├── detection/
 │   ├── custom-rules/        ← Wazuh XML rules
@@ -107,12 +110,12 @@ purple-team-home-lab/
 | Tool | Purpose |
 |------|---------|
 | Wazuh 4.7.5 | SIEM & Detection Engineering |
-| Kali Linux 2024 | Attack Platform |
+| Kali Linux 2025.4 | Attack Platform |
 | Nmap 7.95 | Reconnaissance & CVE Scanning |
 | Metasploit 6.x | Exploitation Framework |
 | Hydra | Brute Force Testing |
 | sqlmap | SQL Injection Automation |
-| enum4linux | SMB Enumeration |
+
 
 ---
 
@@ -127,7 +130,6 @@ purple-team-home-lab/
 | Privilege Escalation | T1068 Exploit for PrivEsc | PwnKit |
 | Credential Access | T1110 Brute Force | Hydra |
 | Discovery | T1046 Network Service Scan | nmap |
-| Discovery | T1135 Network Share Discovery | enum4linux |
 | Collection | T1005 Local Data | Meterpreter |
 
 ---
@@ -141,15 +143,12 @@ purple-team-home-lab/
 ## 🚀 Releases
 
 ### v1.0 — Initial Assessment (April 2026)
-- 5 exploits executed
+- 6 exploits executed
 - 7 custom Wazuh rules developed
 - 37% → 100% detection coverage improvement
 
 ### v2.0 — Coming Soon
-- Tomcat WAR deployment
-- Shellshock exploitation
-- Automated attack simulation scripts
-- Threat hunting exercises
+
 
 ---
 
