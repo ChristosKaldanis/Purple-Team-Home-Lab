@@ -71,32 +71,37 @@ Detection Rate After:  100% (8/8)
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 purple-team-home-lab/
 │
-├── README.md
+├── README.md                   
+├── LICENSE                     
 │
 ├── exploits/
-│   ├── 01-proftpd/          ← CVE-2015-3306
-│   ├── 02-pwnkit/           ← CVE-2021-4034
-│   ├── 03-sqli/             ← Payroll App SQLi
-│   ├── 04-drupal/           ← CVE-2018-7600
-│   └── 05-ssh-bruteforce/   ← Hydra attack
-|   |── 06-slowloris-dos-attack/ ← CVE-2018-7600
-│   
+│   ├── 01-proftpd/
+│   │   └── README.md
+│   ├── 02-pwnkit/
+│   │   └── README.md
+│   ├── 03-sqli/
+│   │   └── README.md
+│   ├── 04-drupal/
+│   │   └── README.md
+│   ├── 05-ssh-bruteforce/
+│   │   └── README.md
+│   └── 06-slowloris/
+│       └── README.md
 │
-├── detection/
-│   ├── custom-rules/        ← Wazuh XML rules
-│   └── screenshots/         ← Dashboard evidence
+├── detections/
+│   ├── custom-rules/
+│   │   └── local_rules.xml     
 │
 ├── evidence/
-│   ├── screenshots/         ← Exploit evidence
-│   └── logs/               ← Captured logs
+│   └── (exploit proof screenshots)
 │
 ├── mitre/
-│   └── attack_mapping.md   ← MITRE ATT&CK mapping
+│   └── attack_mapping.md
 │
 └── report/
     └── Purple_Team_Report.pdf
@@ -104,7 +109,7 @@ purple-team-home-lab/
 
 ---
 
-## 🔧 Tools Used
+## Tools Used
 
 | Tool | Purpose |
 |------|---------|
@@ -118,7 +123,7 @@ purple-team-home-lab/
 
 ---
 
-## 🗺️ MITRE ATT&CK Coverage
+## MITRE ATT&CK Coverage
 
 | Tactic | Technique | Tool |
 |--------|-----------|------|
@@ -133,13 +138,13 @@ purple-team-home-lab/
 
 ---
 
-## 📄 Report
+## Report
 
 📥 [Full Purple Team Assessment Report](report/Purple_Team_Report.pdf)
 
 ---
 
-## 🚀 Releases
+## Releases
 
 ### v1.0 — Initial Assessment (April 2026)
 - 6 exploits executed
@@ -151,7 +156,7 @@ purple-team-home-lab/
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 *This project was conducted in an isolated lab environment for educational purposes only. All systems were owned and operated by the analyst. No unauthorized systems were accessed.*
 
