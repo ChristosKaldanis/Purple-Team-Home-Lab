@@ -102,9 +102,6 @@ purple-team-home-lab/
 │
 ├── mitre/
 │   └── attack_mapping.md
-│
-└── report/
-    └── Purple_Team_Report.pdf
 ```
 
 ---
