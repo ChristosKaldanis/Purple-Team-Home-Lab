@@ -22,7 +22,7 @@ A full **vulnerability assessment** was conducted against the Metasploitable3 ta
 
 - Deploy and configure **Wazuh SIEM** (Manager + Indexer + Dashboard)
 - Build a multi-VM isolated lab network
-- Perform **network scanning and vulnerability discovery** on Metasploitable3
+- Perform **network scanning, vulnerability discovery and exploits** on Metasploitable3
 - Validate **detection capabilities** of Wazuh against real vulnerabilities
 - Map findings to the **MITRE ATT&CK framework**
 - Document the full process for reproducibility and portfolio purposes
