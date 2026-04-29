@@ -56,17 +56,17 @@ A fully functional Purple Team home lab built to simulate real-world cyber attac
 
 | Attack | Before | After | Rule ID |
 |--------|--------|-------|---------|
-| Nmap Scan | ✅ Detected | ✅ Detected | 40101 |
+| Nmap Scan | ❌ Missed | ❌ Missed | 40101 |
 | SSH Brute Force | ✅ Detected | ✅ Detected | 5763 |
-| ProFTPD RCE | ❌ Missed | ✅ Detected | 100001 |
-| PwnKit Privesc | ❌ Missed | ✅ Detected | 100002/3 |
+| ProFTPD RCE | ✅ Detected | ✅ Detected | 100001 |
+| PwnKit Privesc | ❌ Missed | ❌ Missed | 100002/3 |
 | SQL Injection | ✅ Detected | ✅ Detected | 100004 |
 | Drupal RCE | ❌ Missed | ❌ Missed | 100005 |
 | Slowloris DDoS Attack | ✅ Detected | ✅ Detected | 100007 |
 
 ```
-Detection Rate Before:  50% (4/8)
-Detection Rate After:  100% (8/8)
+Detection Rate Before:  57% (4/7)
+Detection Rate After:  57% (4/8)
 ```
 
 ---
@@ -130,7 +130,6 @@ purple-team-home-lab/
 | Reconnaissance | T1595 Active Scanning | nmap |
 | Initial Access | T1190 Exploit Public App | Metasploit |
 | Execution | T1059 Unix Shell | Meterpreter |
-| Persistence | T1136 Local Account | useradd |
 | Privilege Escalation | T1068 Exploit for PrivEsc | PwnKit |
 | Credential Access | T1110 Brute Force | Hydra |
 | Discovery | T1046 Network Service Scan | nmap |
@@ -149,7 +148,6 @@ purple-team-home-lab/
 ### v1.0 — Initial Assessment (April 2026)
 - 6 exploits executed
 - 7 custom Wazuh rules developed
-- 50% → 100% detection coverage improvement
 
 ### v2.0 — Coming Soon
 
