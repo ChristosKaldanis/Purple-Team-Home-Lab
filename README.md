@@ -145,7 +145,7 @@ purple-team-home-lab/
 ### v1.0 — Initial Assessment (April 2026)
 - 6 exploits executed
 - 7 custom Wazuh rules developed
-- 37% → 100% detection coverage improvement
+- 50% → 100% detection coverage improvement
 
 ### v2.0 — Coming Soon
 
