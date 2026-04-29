@@ -25,25 +25,12 @@
 
 ```
 Total MITRE Techniques Used:  9
-Fully Detected:               10 (71%)
-Partially Detected:            4 (29%)
-Not Detected:                  0 (0%)
+Fully Detected:               3 
+Partially Detected:            1 
+Not Detected:                  5 
 ```
 
----
 
-## Tactics Coverage Heatmap
-
-```
-Reconnaissance        ████████████ 100%
-Initial Access        ████████████ 100%
-Execution             ████████░░░░  67%
-Persistence           ████████████ 100%
-Privilege Escalation  ████████████ 100%
-Defense Evasion       ████████░░░░  67%
-Discovery             ████████████ 100%
-Collection            ████████░░░░  67%
-```
 
 ---
 
