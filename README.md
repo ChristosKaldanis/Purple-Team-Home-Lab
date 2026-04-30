@@ -10,7 +10,7 @@
 
 ##  Overview
 
-A fully functional Purple Team home lab built to simulate real-world cyber attacks, practice threat detection, and develop custom SIEM detection rules using **Wazuh**.
+This project focuses on enhancing Wazuh's threat detection capabilities by developing custom detection rules for real-world attacks and known vulnerabilities. The main objective was to create high-quality, custom Wazuh rules capable of detecting critical exploits such as ProFTPD mod_copy Remote Code Execution (CVE-2015-3306), Drupalgeddon2 (CVE-2018-7600), SQL Injection attempts, and Command Injection techniques. These rules were designed with high severity levels, proper MITRE ATT&CK mappings, and optimized regular expressions to improve detection accuracy while reducing false positives.
 
 
 
