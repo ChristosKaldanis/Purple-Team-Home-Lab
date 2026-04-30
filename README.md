@@ -44,9 +44,9 @@ A fully functional Purple Team home lab built to simulate real-world cyber attac
 | 01 | ProFTPD mod_copy RCE | CVE-2015-3306 | 🔴 Critical | 10.0 | Root via chain |
 | 02 | PwnKit Privilege Escalation | CVE-2021-4034 | 🔴 Critical | 7.8 | Root obtained |
 | 03 | SQL Injection — Payroll App | N/A | 🟠 High | 8.8 | DB dumped |
-| 04 | Drupal RCE (Drupalgeddon2) | CVE-2018-7600 | 🟠 High | 9.8 | Shell obtained |
+| 04 | Drupal RCE (Drupalgeddon) | CVE-2018-7600 | 🟠 High | 9.8 | Shell obtained |
 | 05 | SSH Brute Force | N/A | 🟡 Medium | 7.5 | Credentials found |
-| 06 | Slowloris DDoS Attack | N/A | 🟡 Medium | 7.5 | Credentials found |
+| 06 | Slowloris DDoS Attack | CVE-2007-6750 | 🟡 Medium | 7.5 | Credentials found |
 
 ---
 
