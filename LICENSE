@@ -1,1 +1,48 @@
+MIT License
+
+Copyright (c) 2026 Christos Kaldanis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+EDUCATIONAL USE DISCLAIMER
+
+This repository and all its contents were created strictly for educational 
+and research purposes within an isolated, controlled lab environment.
+
+All systems targeted during this assessment were owned and operated solely 
+by the author. No unauthorized systems, networks, or data were accessed at 
+any point during the creation of this project.
+
+The techniques, tools, and methodologies documented here are intended to 
+support learning in the field of cybersecurity, specifically:
+
+  - Security Operations Center (SOC) analysis
+  - Penetration testing fundamentals
+  - SIEM detection engineering
+  - Incident response procedures
+
+Unauthorized use of these techniques against systems you do not own or have 
+explicit written permission to test is illegal and unethical. The author 
+assumes no responsibility for misuse of any information contained in this 
+repository.
+
+Always practice cybersecurity ethically and legally.
 
