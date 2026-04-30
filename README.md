@@ -12,7 +12,7 @@
 
 A fully functional Purple Team home lab built to simulate real-world cyber attacks, practice threat detection, and develop custom SIEM detection rules using **Wazuh**.
 
-**Key Achievement:** Improved Wazuh detection coverage from **50% → 100%** through custom rule development.
+
 
 ---
 
