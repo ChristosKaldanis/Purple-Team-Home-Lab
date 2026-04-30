@@ -132,7 +132,7 @@ purple-team-home-lab/
 | Discovery | T1046 Network Service Scan | nmap |
 | Collection | T1005 Local Data | Meterpreter |
 
----
+
 
 
 
