@@ -4,7 +4,7 @@ WAZUH COMPLETE SETUP GUIDE
 
 SECTION Α — Reset Wazuh SERVER (Ubuntu VM 192.168.106.130)
 Step 1 — Uninstall
-bash# Σταμάτα όλα τα services
+# Stop all the Services
 sudo systemctl stop wazuh-manager
 sudo systemctl stop wazuh-indexer
 sudo systemctl stop wazuh-dashboard
