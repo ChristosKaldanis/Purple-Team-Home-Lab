@@ -134,9 +134,7 @@ purple-team-home-lab/
 
 ---
 
-## Report
 
-📥 [Full Purple Team Assessment Report](report/Purple_Team_Report.pdf)
 
 ---
 
