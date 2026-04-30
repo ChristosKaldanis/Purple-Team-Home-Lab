@@ -26,8 +26,8 @@
 ```
 Total MITRE Techniques Used:  9
 Fully Detected:               3 
-Partially Detected:            1 
-Not Detected:                  5 
+Partially Detected:           2 
+Not Detected:                 4 
 ```
 
 
