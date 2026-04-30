@@ -62,7 +62,7 @@ A fully functional Purple Team home lab built to simulate real-world cyber attac
 | PwnKit Privesc | ❌ Missed | ❌ Missed | 31106/31171 |
 | SQL Injection | ✅ Detected | ✅ Detected | 100004 |
 | Drupal RCE | ❌ Missed | ❌ Missed | 100005 |
-| Slowloris DDoS Attack | ✅ Detected | ✅ Detected | 100007 |
+| Slowloris DDoS Attack | ✅ Detected | ✅ Detected | 31101/31151 |
 
 ```
 Detection Rate Before:  57% (4/7)
