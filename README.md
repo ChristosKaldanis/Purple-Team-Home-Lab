@@ -159,6 +159,6 @@ purple-team-home-lab/
 
 ## 👤 Author
 
-**[Your Name]**  
+**Christos Kaldanis**  
 Aspiring Cybersecurity Analyst  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](YOUR_LINKEDIN_URL)
