@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Version](https://img.shields.io/badge/Version-1.0-blue)
 ![MITRE](https://img.shields.io/badge/MITRE%20ATT%26CK-10%20Techniques-red)
-![Detection](https://img.shields.io/badge/Detection%20Coverage-100%25-brightgreen)
+
 
 ---
 
