@@ -116,7 +116,7 @@ This project required and developed skills across multiple cybersecurity domains
 - [Wazuh Documentation](https://documentation.wazuh.com)
 - [CVE-2015-3306 — ProFTPD mod_copy](https://nvd.nist.gov/vuln/detail/CVE-2015-3306)
 - [CVE-2021-4034 — PwnKit](https://nvd.nist.gov/vuln/detail/CVE-2021-4034)
-- [CVE-2018-7600 — Drupalgeddon2](https://nvd.nist.gov/vuln/detail/CVE-2018-7600)
+- [CVE-2018-7600 — Drupalgeddon](https://nvd.nist.gov/vuln/detail/CVE-2018-7600)
 - [CVE-2007-6750 — Slowloris](https://nvd.nist.gov/vuln/detail/CVE-2007-6750)
 - [PTES — Penetration Testing Execution Standard](http://www.pentest-standard.org)
 
