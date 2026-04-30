@@ -112,7 +112,7 @@ purple-team-home-lab/
 │
 ├── detections/
 │   ├── custom-rules/
-│   │   └── local_rules.xml     
+│   │   └── custom_rules.xml     
 │
 ├── evidence/
 │   └── (exploit proof screenshots)
