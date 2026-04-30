@@ -65,8 +65,25 @@ A fully functional Purple Team home lab built to simulate real-world cyber attac
 | Slowloris DDoS Attack |  Detected |  Detected | 31101/31151 |
 
 ```
-Detection Rate Before:  57% (4/7)
-Detection Rate After:  57% (4/8)
+
+DETECTION LIMITATION:
+
+Target: Metasploitable 3 (Ubuntu 14.04, kernel 3.13)
+Issue:  Legacy OS incompatible with Wazuh 4.x agent
+        and modern IDS tooling (Suricata)
+
+Result: Network-level attack payloads (FTP commands,
+        HTTP parameters) not captured in system logs
+        
+COMPENSATING CONTROLS IMPLEMENTED:
+- Session-level detection via syslog (SSH, FTP sessions)
+- Wazuh built-in rules detect brute force patterns
+- Manual log analysis confirms attack execution
+
+RECOMMENDATION:
+Upgrade target systems to supported OS versions to
+enable full EDR/SIEM coverage
+
 ```
 
 ---
