@@ -58,7 +58,7 @@ A fully functional Purple Team home lab built to simulate real-world cyber attac
 |--------|--------|-------|---------|
 | Nmap Scan | ❌ Missed | ❌ Missed | 40101 |
 | SSH Brute Force | ✅ Detected | ✅ Detected | 5763 |
-| ProFTPD RCE | ✅ Detected | ✅ Detected | 100001 |
+| ProFTPD RCE | ✅ Detected | ✅ Detected | 11201 |
 | PwnKit Privesc | ❌ Missed | ❌ Missed | 31106/31171 |
 | SQL Injection | ✅ Detected | ✅ Detected | 100004 |
 | Drupal RCE | ❌ Missed | ❌ Missed | 100005 |
