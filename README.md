@@ -56,13 +56,13 @@ A fully functional Purple Team home lab built to simulate real-world cyber attac
 
 | Attack | Before | After | Rule ID |
 |--------|--------|-------|---------|
-| Nmap Scan | ❌ Missed | ❌ Missed | 40101 |
-| SSH Brute Force | ✅ Detected | ✅ Detected | 5763 |
-| ProFTPD RCE | ✅ Detected | ✅ Detected | 11201 |
-| PwnKit Privesc | ❌ Missed | ❌ Missed | 31106/31171 |
-| SQL Injection | ✅ Detected | ✅ Detected | 100004 |
-| Drupal RCE | ❌ Missed | ❌ Missed | 100005 |
-| Slowloris DDoS Attack | ✅ Detected | ✅ Detected | 31101/31151 |
+| Nmap Scan | Partial | Partial | 40101 |
+| SSH Brute Force |  Detected |  Detected | 5763 |
+| ProFTPD RCE |  Detected |  Detected | 11201 |
+| PwnKit Privesc |  Missed |  Missed | 31106/31171 |
+| SQL Injection |  Detected |  Detected | 100004 |
+| Drupal RCE |  Missed |  Missed | 100005 |
+| Slowloris DDoS Attack |  Detected |  Detected | 31101/31151 |
 
 ```
 Detection Rate Before:  57% (4/7)
