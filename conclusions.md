@@ -18,7 +18,7 @@ A full attack chain was executed from initial reconnaissance to root-level compr
 | Initial Access | ProFTPD mod_copy RCE (CVE-2015-3306) | Shell as www-data |
 | Privilege Escalation | PwnKit (CVE-2021-4034) | Full root access |
 | Web Exploitation | SQL Injection — payroll_app.php | Database dumped |
-| Web Exploitation | Drupalgeddon2 (CVE-2018-7600) | Remote shell obtained |
+| Web Exploitation | Drupalgeddon (CVE-2018-7600) | Remote shell obtained |
 | Credential Attack | SSH Brute Force — Hydra | Credentials identified |
 | DoS Simulation | Slowloris (CVE-2007-6750) | Web server made unavailable |
 
@@ -36,21 +36,25 @@ Every attack was analyzed from the defender's perspective:
 
 ## Detection Coverage
 
-| Attack | Default Detection | Custom Rule | Final Status |
-|--------|------------------|-------------|--------------|
-| Nmap Scan | ✅ Yes | — | ✅ Covered |
-| SSH Brute Force | ✅ Yes | — | ✅ Covered |
-| ProFTPD RCE | ❌ No | Rule 100001 | ✅ Covered |
-| PwnKit PrivEsc | ❌ No | Rule 100002/3 | ✅ Covered |
-| SQL Injection | ❌ No | Rule 100004 | ✅ Covered |
-| Drupal RCE | ❌ No | Rule 100005 | ✅ Covered |
-| Slowloris DoS | ⚠️ Partial | — | ⚠️ Partial |
 
 ```
-Initial detection rate:  37%  (3/8 attacks)
-Final detection rate:   100%  (8/8 attacks)
-Improvement:            +63 percentage points
-Custom rules written:   7
+DETECTION LIMITATION:
+
+Target: Metasploitable 3 (Ubuntu 14.04, kernel 3.13)
+Issue:  Legacy OS incompatible with Wazuh 4.x agent
+        and modern IDS tooling (Suricata)
+
+Result: Network-level attack payloads (FTP commands,
+        HTTP parameters) not captured in system logs
+        
+COMPENSATING CONTROLS IMPLEMENTED:
+- Session-level detection via syslog (SSH, FTP sessions)
+- Wazuh built-in rules detect brute force patterns
+- Manual log analysis confirms attack execution
+
+RECOMMENDATION:
+Upgrade target systems to supported OS versions to
+enable full EDR/SIEM coverage
 ```
 
 ---
@@ -75,24 +79,7 @@ Custom rules written:   7
 
 ---
 
-## MITRE ATT&CK Coverage
 
-```
-Tactics covered:     9 / 14  (64%)
-Techniques covered:  11
-Detections mapped:   10
-
-Reconnaissance        ✅
-Initial Access        ✅
-Execution             ✅
-Persistence           ✅
-Privilege Escalation  ✅
-Defense Evasion       ⚠️ Partial
-Discovery             ✅
-Lateral Movement      ❌ Not tested
-Collection            ✅
-Exfiltration          ❌ Not tested
-Impact (DoS)          ✅
 ```
 
 ---
@@ -122,18 +109,6 @@ This project required and developed skills across multiple cybersecurity domains
 
 ---
 
-## Planned Improvements — v2.0
-
-The following scenarios are planned for the next release:
-
-- **Tomcat WAR deployment** — authenticated web application exploitation
-- **Shellshock** (CVE-2014-6271) — bash environment variable injection
-- **Lateral movement simulation** — post-compromise network pivoting
-- **Data exfiltration detection** — monitoring for sensitive data leaving the network
-- **Automated attack simulation** — scripted attack chains for repeatable testing
-- **Threat hunting exercises** — hypothesis-driven investigation without prior alerts
-
----
 
 ## References
 
