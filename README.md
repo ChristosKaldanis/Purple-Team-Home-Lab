@@ -176,4 +176,4 @@ purple-team-home-lab/
 
 **Christos Kaldanis**  
 Aspiring Cybersecurity Analyst  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)]([www.linkedin.com/in/christos-kaldanis-677107310](https://www.linkedin.com/in/christos-kaldanis-677107310/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](www.linkedin.com/in/christos-kaldanis-677107310)
