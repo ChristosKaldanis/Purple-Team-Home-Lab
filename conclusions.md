@@ -30,7 +30,7 @@ Every attack was analyzed from the defender's perspective:
 - Identified detection gaps where attacks went undetected
 - Developed 7 custom detection rules to close those gaps
 - Validated each rule by re-executing the corresponding attack
-- Documented all findings in a professional penetration test report
+
 
 ---
 
@@ -44,9 +44,7 @@ Every attack was analyzed from the defender's perspective:
 | PwnKit PrivEsc | ❌ No | Rule 100002/3 | ✅ Covered |
 | SQL Injection | ❌ No | Rule 100004 | ✅ Covered |
 | Drupal RCE | ❌ No | Rule 100005 | ✅ Covered |
-| New User Created | ✅ Yes | — | ✅ Covered |
-| SMB Enumeration | ❌ No | Rule 100007 | ✅ Covered |
-| Slowloris DoS | ✅ Partial | — | ⚠️ Partial |
+| Slowloris DoS | ⚠️ Partial | — | ⚠️ Partial |
 
 ```
 Initial detection rate:  37%  (3/8 attacks)
