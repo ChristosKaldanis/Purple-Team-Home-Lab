@@ -94,8 +94,11 @@ enable full EDR/SIEM coverage
 purple-team-home-lab/
 │
 ├── README.md                   
-├── LICENSE                     
-│
+├── LICENSE
+|                  
+├── setup-wazuh/
+|    └── README.md
+|
 ├── exploits/
 │   ├── 01-proftpd/
 │   │   └── README.md
