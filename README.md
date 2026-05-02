@@ -29,7 +29,7 @@ This project focuses on enhancing Wazuh's threat detection capabilities by devel
 │  └─────────────┘    └────────────┬─────────────┘     │
 │         │                        │                   │
 │         │           ┌────────────▼────────────────┐  │
-│         └──────────▶│   Wazuh SIEM Server           │
+│         └──────────▶│   Wazuh SIEM Server            │
 │                     │   192.168.106.130              │
 │                     │   Wazuh Manager + Dashboard    │
 │                     └─────────────────────────────┘  |
