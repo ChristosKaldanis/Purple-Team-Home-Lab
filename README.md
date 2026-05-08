@@ -91,7 +91,7 @@ enable full EDR/SIEM coverage
 ## Repository Structure
 
 ```
-purple-team-home-lab/
+Purple-Team-Home-Lab/
 │
 ├── README.md                   
 ├── LICENSE
@@ -110,7 +110,7 @@ purple-team-home-lab/
 │   │   └── README.md
 │   ├── 05-ssh-bruteforce/
 │   │   └── README.md
-│   └── 06-slowloris/
+│   └── 06-ddos/
 │       └── README.md
 │
 ├── detections/
