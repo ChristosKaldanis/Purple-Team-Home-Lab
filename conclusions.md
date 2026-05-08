@@ -20,7 +20,7 @@ A full attack chain was executed from initial reconnaissance to root-level compr
 | Web Exploitation | SQL Injection — payroll_app.php | Database dumped |
 | Web Exploitation | Drupalgeddon (CVE-2018-7600) | Remote shell obtained |
 | Credential Attack | SSH Brute Force — Hydra | Credentials identified |
-| DoS Simulation | Slowloris (CVE-2007-6750) | Web server made unavailable |
+| DDoS Simulation | Slowloris (CVE-2007-6750) | Web server made unavailable |
 
 ### Defensive (Blue Team)
 
