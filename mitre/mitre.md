@@ -1,0 +1,37 @@
+# MITRE ATT&CK Mapping
+
+> Complete mapping of all Purple Team lab attack scenarios to MITRE ATT&CK framework.
+
+
+---
+
+## Full Mapping Table
+
+| Tactic | ID | Technique | Sub-technique | Tool | Finding | Detected |
+|--------|----|-----------|---------------|------|---------|---------|
+| Reconnaissance | T1595.002 | Active Scanning: Vulnerability Scanning | - | nmap -D RND:5 -sV --version-intensity 9 -p- --script "vuln and not brute"  -T3 --open 192.168.106.134 -oN targeted2_cve_scan.txt | All targets | Partial |
+| Initial Access | T1190 | Exploit Public-Facing Application | - | Metasploit proftpd_modcopy | ProFTPD | Rule 11201 |
+| Initial Access | T1190 | Exploit Public-Facing Application | - | Metasploit drupalgeddon | Drupal | Not Detected |
+| Initial Access | T1190 | Exploit Public-Facing Application | - | sqlmap | SQLi | Rule 31103 |
+| Initial Access | T1110.001 | Brute Force: Password Guessing | - | Hydra | SSH | Rule 5763 |
+| Execution | T1059.004 | Command & Scripting: Unix Shell | - | Meterpreter | Post-exploit | Partial |
+| Privilege Escalation | T1068 | Exploitation for Privilege Escalation | - | PwnKit exploit | PwnKit | Not Detected |
+| Discovery | T1082 | System Information Discovery | - | getuid, sysinfo | Post-exploit | Not Detected |
+| Collection | T1005 | Data from Local System | - | cat /etc/shadow | Post-exploit | Not Detected |
+
+---
+
+## Coverage Summary
+
+```
+Total MITRE Techniques Used:  9
+Fully Detected:               3 
+Partially Detected:           2 
+Not Detected:                 4 
+```
+
+
+
+---
+
+*Reference: https://attack.mitre.org*
