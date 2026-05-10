@@ -101,17 +101,17 @@ Purple-Team-Home-Lab/
 |
 ├── exploits/
 │   ├── 01-proftpd/
-│   │   └── README.md
+│   │   └── 01-proftpd.md
 │   ├── 02-pwnkit/
-│   │   └── README.md
+│   │   └── 02-pwnkit.md
 │   ├── 03-sqli/
-│   │   └── README.md
+│   │   └── 03-sqli.md
 │   ├── 04-drupal/
-│   │   └── README.md
+│   │   └── 04-drupal.md
 │   ├── 05-ssh-bruteforce/
-│   │   └── README.md
+│   │   └── 05-ssh-bruteforce.md
 │   └── 06-ddos/
-│       └── README.md
+│       └── 06-ddos.md
 │
 ├── detections/
 │   ├── custom-rules/
