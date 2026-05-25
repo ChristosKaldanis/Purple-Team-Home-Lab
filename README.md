@@ -175,8 +175,5 @@ Purple-Team-Home-Lab/
 
 ---
 
-## Author
 
-**Christos Kaldanis**  
-Aspiring Cybersecurity Consultant  
 
